@@ -1,16 +1,7 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function App() {
-  const useFadeIn = () => {
-    const element = useRef();
-    return { ref: element, style: { opacity: 0 } };
-  };
-  const el = useFadeIn();
-  return (
-    <div>
-      <h1 {...el}>Hello World!</h1>
-    </div>
-  );
+  return null;
 }
 
 export default App;
